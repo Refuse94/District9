@@ -209,5 +209,28 @@ function pinKod(a, b, c){
  pinKod(6,8,4);
 
 
+ let toDo = ["Zostrihať video", "Upratať izbu", "Vyluxovať"];
+
+
+ console.log(toDo);
+// keď chcem samostatne vypísať veci z pola, tak dám názov pola  [i] .....
+ for (let i=0; i<toDo.length; i++){
+    
+    console.log(`${i}: `, `${toDo[i]}`);
+
+ }
+
+let prazdnePole = [];
+
+// keď chcem naplniť prazdne pole niečim
+for (let j=0; j< 5; j++){
+    
+    prazdnePole.push(j);
+    
+}
+console.log(prazdnePole);
+ 
+
+
 })(jQuery);
 
