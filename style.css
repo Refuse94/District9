@@ -88,7 +88,7 @@ main .nav_bar li:hover{
 /* ==============================  GALERIA SETTINGS  ================================== */
 .galery{
     display:grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 20rem;
     margin-left: 6rem;
     margin-top: 8rem;

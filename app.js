@@ -190,6 +190,23 @@
 // // selectedGallery.length ? galery.show()
 
 
+console.log('ahoj tu som');
+let number1 = 6;
+let number2 = 8;
+let number3 = 4;
+
+console.log('Prvé čislo má hodnotu: ', number1);
+
+function pinKod(a, b, c){
+    if(number1 ===a && number2===b && number3===c){
+        console.log('Zadali ste správny Pin Kód');
+    }
+    else{
+        console.log('Zlý PIN, skúste to znovu');
+    }
+ }
+
+ pinKod(6,8,4);
 
 
 })(jQuery);
